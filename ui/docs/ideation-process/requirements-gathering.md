@@ -8,9 +8,9 @@ export const Highlight = ({children, color}) => (
 <span
 style={{
       backgroundColor: color,
-      borderRadius: '20px',
+      borderRadius: '15px',
       color: '#fff',
-      padding: '0.2em 0.4em',
+      padding: '0.2em 0.3em 0.2em 0.3em',
       cursor: 'pointer',
     }}>
 {children}
@@ -25,19 +25,20 @@ We initiated the conversation by sending an email to gain a comprehensive unders
 
 ### Goals
 
-- Gain knowledge about any <Highlight color="#ff7f00"> previous student-engagement initiatives</Highlight> at Fossil Grove.
-- Identify <Highlight color="#ff7f00"> potential challenges</Highlight> faced when engaging students at Fossil Grove.
-- Comprehend the <Highlight color="#ff7f00"> anticipated learning outcomes</Highlight> for primary school students.
-- Determine <Highlight color="#ff7f00"> available tools and technologies</Highlight> for implementation.
+- Gain knowledge about any <Highlight color="
+#11a281"> previous student-engagement initiatives</Highlight> at Fossil Grove.
+- Identify <Highlight color="#11a281"> potential challenges</Highlight> faced when engaging students at Fossil Grove.
+- Comprehend the <Highlight color="#11a281"> anticipated learning outcomes</Highlight> for primary school students.
+- Determine <Highlight color="#11a281"> available tools and technologies</Highlight> for implementation.
 
 ### Findings
 
 - Previously conducted a session for a small group of primary school students, finding that engaging a larger group for two hours may pose a challenge.
-- Field excursions for first-year earth science students from Glasgow University were organized using a <Highlight color="#ff7f00">three-station model with a teacher at each station</Highlight>, rotating students every 30 minutes followed by a group review.
-- In addition to geology, aims to <Highlight color="#ff7f00">highlight connections to Glasgow's industrial heritage, climate change, evolution, and heritage conservation</Highlight>.
-- Classes expected to be <Highlight color="#ff7f00">sizes of 29-33</Highlight>, suggesting that smaller groups of about 5-6 students would be manageable.
-- Primary school students exhibit <Highlight color="#ff7f00">varying ability levels</Highlight>, with reading age ranging from 6-7 to 11-12.
-- <Highlight color="#ff7f00">iPads</Highlight> are available for use, but usage is limited by restrictions on accessible content.
+- Field excursions for first-year earth science students from Glasgow University were organized using a <Highlight color="#11a281">three-station model with a teacher at each station</Highlight>, rotating students every 30 minutes followed by a group review.
+- In addition to geology, aims to <Highlight color="#11a281">highlight connections to Glasgow's industrial heritage, climate change, evolution, and heritage conservation</Highlight>.
+- Classes expected to be <Highlight color="#11a281">sizes of 29-33</Highlight>, suggesting that smaller groups of about 5-6 students would be manageable.
+- Primary school students exhibit <Highlight color="#11a281">varying ability levels</Highlight>, with reading age ranging from 6-7 to 11-12.
+- <Highlight color="#11a281">iPads</Highlight> are available for use, but usage is limited by restrictions on accessible content.
 
 ## On-Site Visit: Fossil Grove
 
@@ -45,18 +46,18 @@ We visited Fossil Grove to engage in-person discussions with the clients and par
 
 ### Goals
 
-- Identify <Highlight color="#ff7f00"> suitable venues</Highlight> for planned activities.
-- Understand the <Highlight color="#ff7f00"> educational significance</Highlight> of the locations.
-- Discover any <Highlight color="#ff7f00"> limitations</Highlight> at the site.
+- Identify <Highlight color="#11a281"> suitable venues</Highlight> for planned activities.
+- Understand the <Highlight color="#11a281"> educational significance</Highlight> of the locations.
+- Discover any <Highlight color="#11a281"> limitations</Highlight> at the site.
 
 ### Findings
 
-- Identified <Highlight color="#ff7f00">four primary areas of interest for visits</Highlight>: the main museum, the back of the museum, front region, and quarry.
+- Identified <Highlight color="#11a281">four primary areas of interest for visits</Highlight>: the main museum, the back of the museum, front region, and quarry.
 - Pinpointed essential educational material in each area to enhance activity development.
 - One teacher would be assigned to each student group of 6-7.
-- Every student would have access to an <Highlight color="#ff7f00">iPad</Highlight>.
-- <Highlight color="#ff7f00">WiFi connectivity is unavailable</Highlight> at the venue.
-- Students are expected to <Highlight color="#ff7f00">explore independently</Highlight> as there are no guided tours.
+- Every student would have access to an <Highlight color="#11a281">iPad</Highlight>.
+- <Highlight color="#11a281">WiFi connectivity is unavailable</Highlight> at the venue.
+- Students are expected to <Highlight color="#11a281">explore independently</Highlight> as there are no guided tours.
 
 ## User Persona
 
@@ -97,10 +98,10 @@ We visited Fossil Grove to engage in-person discussions with the clients and par
 
 **For Teachers at Scotstoun Primary:**
 
-- Provide various <Highlight color="#ff7f00">engaging and easy-to-understand activities</Highlight>.
+- Provide various <Highlight color="#11a281">engaging and easy-to-understand activities</Highlight>.
 
 **For Fossil Grove Staff:**
 
-- Students should understand its pre-dinosaur period (emphasis on <Highlight color="#ff7f00"> timeline</Highlight>).
-- Ensure the Fossil Grove's <Highlight color="#ff7f00"> geological significance</Highlight> is effectively communicated and appreciated.
-- Encourage students to <Highlight color="#ff7f00">engage actively</Highlight> with the exhibits and information, minimizing distractions and maximizing attention spans.
+- Students should understand its pre-dinosaur period (emphasis on <Highlight color="#11a281"> timeline</Highlight>).
+- Ensure the Fossil Grove's <Highlight color="#11a281"> geological significance</Highlight> is effectively communicated and appreciated.
+- Encourage students to <Highlight color="#11a281">engage actively</Highlight> with the exhibits and information, minimizing distractions and maximizing attention spans.
