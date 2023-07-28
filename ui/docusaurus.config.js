@@ -42,6 +42,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: "/journal",
+          blogTitle: "Journal",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -76,8 +78,8 @@ const config = {
             position: "left",
             label: "Proud Achievements",
           },
-          //Blog (Dailies)
-          { to: "/blog", label: "Blog", position: "left" },
+          //Journal (Dailies)
+          { to: "/journal", label: "Journal", position: "left" },
           //GitHub
           {
             href: "https://github.com/dthx2710/oipteam1b2023",
@@ -101,8 +103,8 @@ const config = {
                 to: "/docs/proud-achievements/proud",
               },
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Journal",
+                to: "/journal",
               },
             ],
           },
