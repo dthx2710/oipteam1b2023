@@ -4,57 +4,103 @@ sidebar_position: 2
 
 # Requirements Gathering
 
-The team conducted two phases of requirements gathering. Initially, they posed their inquiries via email to both Scotstoun Primary and Fossil Grove, followed by an on-site visit to Fossil Grove for further investigation.
+export const Highlight = ({children, color}) => (
+<span
+style={{
+      backgroundColor: color,
+      borderRadius: '20px',
+      color: '#fff',
+      padding: '0.2em 0.4em',
+      cursor: 'pointer',
+    }}>
+{children}
+</span>
+);
 
+Our team conducted two phases of requirements gathering. Initially, we posed our inquiries via email to both Scotstoun Primary and Fossil Grove. This was followed by an on-site visit to Fossil Grove for further investigation.
 
-## Sending the email
+## Email
 
-The team sent an email aiming to gain a more comprehensive understanding of the project needs, and to confirm the alignment of the team's conceptual framework with that of the client's.
+We initiated the conversation by sending an email to gain a comprehensive understanding of the project needs and align our team's conceptual framework with the client's expectations.
 
+### Goals
 
-### Goals 
-
-- Gain knowledge about any previous student-engagement initiatives held by Fossil Grove.
-- Discover potential challenges faced when engaging students with Fossil Grove.
-- Comprehend the anticipated learning outcomes for primary school students.
-- Develop an understanding of the students' requirements.
-- Ascertain what tools and technologies are accessible for utilization.
-
+- Gain knowledge about any <Highlight color="#ff7f00"> previous student-engagement initiatives</Highlight> at Fossil Grove.
+- Identify <Highlight color="#ff7f00"> potential challenges</Highlight> faced when engaging students at Fossil Grove.
+- Comprehend the <Highlight color="#ff7f00"> anticipated learning outcomes</Highlight> for primary school students.
+- Determine <Highlight color="#ff7f00"> available tools and technologies</Highlight> for implementation.
 
 ### Findings
 
 - Previously conducted a session for a small group of primary school students, finding that engaging a larger group for two hours may pose a challenge.
-- Conducted monthly earth science activities geared towards primary school-aged children, but this necessitates considerable volunteer time.
-- Organized field excursions for first-year earth science students from Glasgow University, utilizing a three-station model with a teacher at each, rotating students every 30 minutes followed by a group review.
-- In addition to geology, aims to highlight connections to Glasgow's industrial heritage, climate change, evolution, and heritage conservation, thereby emphasizing the significance of geology as a future career and fostering appreciation for the nearby historical facility.
-- Anticipates class sizes of 29-33, suggesting that smaller groups of about 5-6 students would be more manageable.
-- Notes that primary school students exhibit a range of ability levels, with some having a reading age of 6-7 while others are at 11-12.
-- Reports that iPads are available for use, but usage is limited by restrictions on accessible content.
+- Field excursions for first-year earth science students from Glasgow University were organized using a <Highlight color="#ff7f00">three-station model with a teacher at each station</Highlight>, rotating students every 30 minutes followed by a group review.
+- In addition to geology, aims to <Highlight color="#ff7f00">highlight connections to Glasgow's industrial heritage, climate change, evolution, and heritage conservation</Highlight>.
+- Classes expected to be <Highlight color="#ff7f00">sizes of 29-33</Highlight>, suggesting that smaller groups of about 5-6 students would be manageable.
+- Primary school students exhibit <Highlight color="#ff7f00">varying ability levels</Highlight>, with reading age ranging from 6-7 to 11-12.
+- <Highlight color="#ff7f00">iPads</Highlight> are available for use, but usage is limited by restrictions on accessible content.
 
+## On-Site Visit: Fossil Grove
 
-## Visiting Fossil Grove
+We visited Fossil Grove to engage in-person discussions with the clients and participate in a guided tour of Fossil Grove.
 
-The team visited Fossil Grove to engage in-person discussions with the clients and to partcipate in a guided tour of Fossil Grove.
+### Goals
 
-### Goals 
-
-- Identify suitable venues for conducting activities planned.
-- Pinpoint the educational significance of the locations.
-- Discover any limitations present at the site.
-
+- Identify <Highlight color="#ff7f00"> suitable venues</Highlight> for planned activities.
+- Understand the <Highlight color="#ff7f00"> educational significance</Highlight> of the locations.
+- Discover any <Highlight color="#ff7f00"> limitations</Highlight> at the site.
 
 ### Findings
 
-- Identified four primary areas of interest for visits: the main museum, the back of the museum, front region, and quarry.
+- Identified <Highlight color="#ff7f00">four primary areas of interest for visits</Highlight>: the main museum, the back of the museum, front region, and quarry.
 - Pinpointed essential educational material in each area to enhance activity development.
 - One teacher would be assigned to each student group of 6-7.
-- Every student would have access to an iPad.
-- No WiFi connectivity available at the venue.
-- Provision for students requiring extra support due to physical or mental disabilities.
-- No guided tours, students are expected to explore independently.
-
-
+- Every student would have access to an <Highlight color="#ff7f00">iPad</Highlight>.
+- <Highlight color="#ff7f00">WiFi connectivity is unavailable</Highlight> at the venue.
+- Students are expected to <Highlight color="#ff7f00">explore independently</Highlight> as there are no guided tours.
 
 ## User Persona
 
-## Product Vision / User needs
+<table>
+  <tr>
+    <th></th>
+    <th>Age</th>
+    <th>Knowledge Level</th>
+    <th>Needs</th>
+    <th>Technology</th>
+  </tr>
+  <tr>
+    <td>Students at Scotstoun Primary</td>
+    <td>7-12</td>
+    <td>Varied reading age (6-7 to 11-12).</td>
+    <td>Engaging, digestible activities.</td>
+    <td>iPads with limited content access.</td>
+  </tr>
+ <tr>
+  <td>Teachers at Scotstoun Primary</td>
+  <td>20-60</td>
+  <td> Knowledgeable about student abilities and needs, familiar with the school curriculum.</td>
+  <td>Manageable, engaging educational activities for ~30 students.</td>
+  <td>N/A</td>
+</tr>
+
+  <tr>
+    <td>Fossil Grove Staff</td>
+    <td>20-60</td>
+    <td> Expertise in geology and paleontology. Deep understanding of Fossil Grove site.</td>
+    <td>Engaging visitor experiences. Promotion of geological significance.</td>
+    <td>N/A</td>
+
+  </tr>
+</table>
+
+## Product Vision
+
+**For Teachers at Scotstoun Primary:**
+
+- Provide various <Highlight color="#ff7f00">engaging and easy-to-understand activities</Highlight>.
+
+**For Fossil Grove Staff:**
+
+- Students should understand its pre-dinosaur period (emphasis on <Highlight color="#ff7f00"> timeline</Highlight>).
+- Ensure the Fossil Grove's <Highlight color="#ff7f00"> geological significance</Highlight> is effectively communicated and appreciated.
+- Encourage students to <Highlight color="#ff7f00">engage actively</Highlight> with the exhibits and information, minimizing distractions and maximizing attention spans.
