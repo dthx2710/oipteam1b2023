@@ -60,48 +60,14 @@ We visited Fossil Grove to engage in-person discussions with the clients and par
 - Students are expected to <Highlight color="#11a281">explore independently</Highlight> as there are no guided tours.
 
 ## User Persona
+Based on our findings, the team created a user persona to better empathize with and prioritize goals according to their needs.
 
-<table>
-  <tr>
-    <th></th>
-    <th>Age</th>
-    <th>Knowledge Level</th>
-    <th>Needs</th>
-    <th>Technology</th>
-  </tr>
-  <tr>
-    <td>Students at Scotstoun Primary</td>
-    <td>7-12</td>
-    <td>Varied reading age (6-7 to 11-12).</td>
-    <td>Engaging, digestible activities.</td>
-    <td>iPads with limited content access.</td>
-  </tr>
- <tr>
-  <td>Teachers at Scotstoun Primary</td>
-  <td>20-60</td>
-  <td> Knowledgeable about student abilities and needs, familiar with the school curriculum.</td>
-  <td>Manageable, engaging educational activities for ~30 students.</td>
-  <td>N/A</td>
-</tr>
+![User Persona Image](../../static/img/persona.png)
 
-  <tr>
-    <td>Fossil Grove Staff</td>
-    <td>20-60</td>
-    <td> Expertise in geology and paleontology. Deep understanding of Fossil Grove site.</td>
-    <td>Engaging visitor experiences. Promotion of geological significance.</td>
-    <td>N/A</td>
-
-  </tr>
-</table>
 
 ## Product Vision
 
-**For Teachers at Scotstoun Primary:**
-
 - Provide various <Highlight color="#11a281">engaging and easy-to-understand activities</Highlight>.
-
-**For Fossil Grove Staff:**
-
 - Students should understand its pre-dinosaur period (emphasis on <Highlight color="#11a281"> timeline</Highlight>).
 - Ensure the Fossil Grove's <Highlight color="#11a281"> geological significance</Highlight> is effectively communicated and appreciated.
 - Encourage students to <Highlight color="#11a281">engage actively</Highlight> with the exhibits and information, minimizing distractions and maximizing attention spans.
