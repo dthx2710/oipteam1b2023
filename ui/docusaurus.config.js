@@ -62,22 +62,23 @@ const config = {
           src: "img/logo.png",
         },
         items: [
+          //Prototypes etc.
           {
             type: "docSidebar",
             sidebarId: "ideationSidebar", //verify in sidebar.js (it automatically generates the sidebar from docs markdown :D)
             position: "left",
             label: "Ideation Process",
           },
-          //Prototypes etc.
+          //Proud Achievements
           {
             type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "proudSidebar",
             position: "left",
             label: "Proud Achievements",
           },
-          //Proud Achievements
+          //Blog (Dailies)
           { to: "/blog", label: "Blog", position: "left" },
-          //Dailies
+          //GitHub
           {
             href: "https://github.com/dthx2710/oipteam1b2023",
             label: "GitHub",
@@ -93,11 +94,11 @@ const config = {
             items: [
               {
                 label: "Ideation Process",
-                to: "/docs/process",
+                to: "/docs/ideation-process/aligning-mental-models",
               },
               {
                 label: "Proud Achievements",
-                to: "/docs/proud",
+                to: "/docs/proud-achievements/proud",
               },
               {
                 label: "Blog",
