@@ -53,6 +53,9 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <h1 style={{ textAlign: "center", paddingBottom: "2.5rem" }}>
+          Project Highlights
+        </h1>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

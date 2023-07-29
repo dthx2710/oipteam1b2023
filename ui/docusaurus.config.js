@@ -80,12 +80,6 @@ const config = {
           },
           //Journal (Dailies)
           { to: "/journal", label: "Journal", position: "left" },
-          //GitHub
-          {
-            href: "https://github.com/dthx2710/oipteam1b2023",
-            label: "GitHub",
-            position: "right",
-          },
         ],
       },
       footer: {
