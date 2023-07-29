@@ -10,7 +10,7 @@ style={{
       backgroundColor: color,
       borderRadius: '15px',
       color: '#fff',
-      padding: '0.2em 0.3em 0.2em 0.3em',
+      padding: '0.12em 0.4em 0.12em 0.4em',
       cursor: 'pointer',
     }}>
 {children}
@@ -26,7 +26,7 @@ We initiated the conversation by sending an email to gain a comprehensive unders
 ### Goals
 
 - Gain knowledge about any <Highlight color="
-#11a281"> previous student-engagement initiatives</Highlight> at Fossil Grove.
+  #11a281"> previous student-engagement initiatives</Highlight> at Fossil Grove.
 - Identify <Highlight color="#11a281"> potential challenges</Highlight> faced when engaging students at Fossil Grove.
 - Comprehend the <Highlight color="#11a281"> anticipated learning outcomes</Highlight> for primary school students.
 - Determine <Highlight color="#11a281"> available tools and technologies</Highlight> for implementation.
@@ -60,10 +60,10 @@ We visited Fossil Grove to engage in-person discussions with the clients and par
 - Students are expected to <Highlight color="#11a281">explore independently</Highlight> as there are no guided tours.
 
 ## User Persona
+
 Based on our findings, the team created a user persona to better empathize with and prioritize goals according to their needs.
 
 ![User Persona Image](../../static/img/persona.png)
-
 
 ## Product Vision
 
