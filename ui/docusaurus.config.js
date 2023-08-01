@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OIP Team 1B",
-  tagline: "Grove Quest",
+  title: "Grove Quest",
+  tagline: "Where History and Fun Unite!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "oipteam1b2023", // Usually your GitHub org/user name.
-  projectName: "oipteam1b2023", // Usually your repo name.
+  projectName: "grovequest", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -58,9 +58,9 @@ const config = {
       // Replace with your project's social card
       image: "img/logo.jpg",
       navbar: {
-        title: "OIP Team 1B",
+        title: "Grove Quest",
         logo: {
-          alt: "OIP Team 1B Logo",
+          alt: "Grove Quest Logo",
           src: "img/logo.png",
         },
         items: [

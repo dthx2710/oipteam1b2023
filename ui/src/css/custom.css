@@ -31,5 +31,13 @@
 
 .hero__title,
 .hero__subtitle {
-  color: white;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.hero__subtitle {
+  font-size: 1.953rem;
+  font-weight: bold;
 }
