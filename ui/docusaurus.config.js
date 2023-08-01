@@ -42,8 +42,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          routeBasePath: "/journal",
-          blogTitle: "Journal",
+          routeBasePath: "/dailies",
+          blogTitle: "Dailies",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -78,8 +78,10 @@ const config = {
             position: "left",
             label: "Proud Achievements",
           },
-          //Journal (Dailies)
-          { to: "/journal", label: "Journal", position: "left" },
+          //Dailies
+          { to: "/dailies", label: "Dailies", position: "left" },
+          //About
+          { to: "/our-team", label: "Our Team", position: "right" },
         ],
       },
       footer: {
@@ -97,8 +99,8 @@ const config = {
                 to: "/docs/proud-achievements/proud",
               },
               {
-                label: "Journal",
-                to: "/journal",
+                label: "Dailies",
+                to: "/dailies",
               },
             ],
           },
