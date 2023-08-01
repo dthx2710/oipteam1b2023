@@ -26,12 +26,9 @@ Scotstoun Primary is a school with students of age ranging from 6 to 11 years. D
 
 ## The Problem
 
-Designing educational content for primary school students presents a different set of criterions, namely:
+Designing educational content for primary school students requires a unique set of guidelines, specifically:
 
-- Designing child-friendly content: The main challenge is making complex geological concepts understandable and interesting for primary school students. The activites created must suitable for their cognitive and developmental level.
-
-- Keeping the children engaged: The attention span of young children can be relatively short. The activities must be engaging and interactive yet not too long to maintain the children's interest.
-
-- Managable for teachers: The activities should be straightforward and uncomplicated, allowing any teacher to carry them out without requiring extensive expertise. The safety of the activities should also be ensured to minimize the risk of accidents
-
-- Sustainability: The initiative should ideally be sustainable. It's not just about creating a one-time activity, but rather a repeatable experience that can be improved over time and possibly expanded to other schools or age groups.
+- **Designing child-friendly content**: The main challenge is making complex geological concepts understandable and interesting for primary school students. The activites created must suitable for their cognitive and developmental level.
+- **Keeping the children engaged**: The attention span of young children can be relatively short. The activities must be engaging and interactive yet not too long to maintain the children's interest.
+- **Managable for teachers**: The activities should be straightforward and uncomplicated, allowing any teacher to carry them out without requiring extensive expertise. The safety of the activities should also be ensured to minimize the risk of accidents.
+- **Sustainability**: The initiative should ideally be sustainable. It's not just about creating a one-time activity, but rather a repeatable experience that can be improved over time and possibly expanded to other schools or age groups.
