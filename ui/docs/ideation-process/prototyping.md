@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Prototyping
@@ -27,7 +27,7 @@ Our proposal for Grove Quest has received approval from our clients. They offere
 
 ## Development of the mini-games
 
-![Fossil Grove Map Image](../../static/img/map.png)
+![Fossil Grove Map Image](../../static/img/fossil_grove_map.png)
 
 During the fruitful trip to Fossil Grove, the team identified 4 key areas to function as the stations for Grove Quest:
 1. Statue of the tree
