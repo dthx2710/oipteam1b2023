@@ -31,10 +31,10 @@
 
 .hero__title,
 .hero__subtitle {
-  color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: black;
+  color: #ac6f43;
+  -webkit-text-fill-color: darkgreen; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .hero__subtitle {
