@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/ideation-process/aligning-mental-models"
+            to="/docs/ideation-process/background"
           >
             Ideation Process 💡
           </Link>
