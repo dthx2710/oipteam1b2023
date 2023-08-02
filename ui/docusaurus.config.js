@@ -101,11 +101,15 @@ const config = {
             items: [
               {
                 label: "Ideation Process",
-                to: "/docs/ideation-process/aligning-mental-models",
+                to: "/docs/ideation-process/background",
               },
               {
                 label: "Proud Achievements",
                 to: "/docs/proud-achievements/proud",
+              },
+              {
+                label: "Reflection",
+                to: "/reflection",
               },
               {
                 label: "Dailies",
@@ -125,6 +129,10 @@ const config = {
           {
             title: "Connect",
             items: [
+              {
+                label: "Our Team",
+                to: "/our-team",
+              },
               {
                 label: "Email",
                 href: "mailto:oipteam1b@gmail.com",

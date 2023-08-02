@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import Team1B from "@site/static/img/team/team1B.png";
 
 import styles from "./our-team.module.css";
+import Link from "@docusaurus/Link";
 
 export default function About() {
   return (
@@ -16,16 +17,39 @@ export default function About() {
           <div className={styles.textWrapper}>
             <p>
               <strong>
-                University of Glasgow, Computing Science Undergraduates! (left to right) 
+                University of Glasgow, Computing Science Undergraduates! (left
+                to right)
               </strong>
             </p>
             <ul>
-              <li>Keng Li Chia - Front-End Developer 👩‍💻</li>
-              <li>Priscilla Thung Rui Yi - Front-End Developer 👩‍💻</li>
-              <li>Xiang Hui Zhang - Game Developer 🎮</li>
-              <li>Yee Kit Goh - Game Developer 🎮</li>
-              <li>Derick Kwok Jun Peng - Game Developer 🎮</li>
-              <li>Dylan Tok Hong Xun - Product Owner 👨‍💼</li>
+              <li>
+                <Link to="https://github.com/KengLiChia">Keng Li Chia</Link> -
+                Front-End Developer 👩‍💻
+              </li>
+              <li>
+                <Link to="https://github.com/PriscillaThung">
+                  Priscilla Thung Rui Yi
+                </Link>
+                - Front-End Developer 👩‍💻
+              </li>
+              <li>
+                <Link to="https://github.com/XiangHui556">Xiang Hui Zhang</Link>
+                - Game Developer 🎮
+              </li>
+              <li>
+                <Link to="https://github.com/xKhronoz">Yee Kit Goh</Link> - Game
+                Developer 🎮
+              </li>
+              <li>
+                <Link to="https://github.com/zyferis">
+                  Derick Kwok Jun Peng
+                </Link>
+                - Game Developer 🎮
+              </li>
+              <li>
+                <Link to="https://github.com/dthx2710">Dylan Tok Hong Xun</Link>
+                - Product Owner 👨‍💼
+              </li>
             </ul>
             <p>
               We are a dynamic team of Computing Science undergraduates from the
