@@ -16,7 +16,7 @@ export default function About() {
           <div className={styles.textWrapper}>
             <p>
               <strong>
-                University of Glasgow, Computing Science Undergraduates! 🌟
+                University of Glasgow, Computing Science Undergraduates! (left to right) 
               </strong>
             </p>
             <ul>
