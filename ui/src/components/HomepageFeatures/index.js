@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Engaging Mini-Activites",
-    Svg: require("@site/static/img/curiosity_child_pana.svg").default,
+    Svg: require("@site/static/img/home/curiosity_child_pana.svg").default,
     description: (
       <>
         Interactive activities with Fossil Grove's pre-dinosaur era, tailored
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Education Impact",
-    Svg: require("@site/static/img/forest_bro.svg").default,
+    Svg: require("@site/static/img/home/forest_bro.svg").default,
     description: (
       <>
         Immersive learning about an ancient world, predating the dinosaurs, and
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Tech-Integrated Learning",
-    Svg: require("@site/static/img/demo_amico.svg").default,
+    Svg: require("@site/static/img/home/demo_amico.svg").default,
     description: (
       <>
         iPads enhancing an interactive journey back in time, boosting learning

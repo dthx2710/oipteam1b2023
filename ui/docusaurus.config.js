@@ -44,6 +44,8 @@ const config = {
           showReadingTime: true,
           routeBasePath: "/dailies",
           blogTitle: "Dailies",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Dailies",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

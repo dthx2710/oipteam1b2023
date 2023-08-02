@@ -63,7 +63,7 @@ We visited Fossil Grove to engage in-person discussions with the clients and par
 
 Based on our findings, the team created a user persona to better empathize with and prioritize goals according to their needs.
 
-![User Persona Image](../../static/img/persona.png)
+![User Persona Image](../../static/img/ideation/persona.png)
 
 ## Product Vision
 

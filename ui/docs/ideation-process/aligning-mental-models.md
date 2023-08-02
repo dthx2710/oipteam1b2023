@@ -19,7 +19,7 @@ style={{
 
 Mental models are representations that individuals have in their minds about how things work in the world. They shape interactions with different systems, including digital products like ours. Aligning our product design with users' mental models is crucial to ensure an intuitive and satisfying user experience.
 
-![Mental Model](../../static/img/mental_model.png)
+![Mental Model](../../static/img/ideation/mental_model.png)
 
 ## User Mental Model
 

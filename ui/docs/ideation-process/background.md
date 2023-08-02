@@ -17,8 +17,7 @@ style={{
 </span>
 );
 
-
-![Map Image](../../static/img/map.png)
+![Map Image](../../static/img/ideation/map.png)
 
 Fossil Grove is a unique earth heritage site with 330 million years old fossil tree stumps. Due to its geological importance, the site is used to teach University students and keen visitors. As such, educational content were designed and implemented for adult learners.
 

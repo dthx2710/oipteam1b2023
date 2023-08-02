@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
-import Team1B from "@site/static/img/team1B.png";
+import Team1B from "@site/static/img/team/team1B.png";
 
 import styles from "./our-team.module.css";
 

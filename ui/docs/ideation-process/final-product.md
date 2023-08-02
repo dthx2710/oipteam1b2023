@@ -19,4 +19,3 @@ export const Prototype = () => (
 Here is the final prototype of Grove Quest!
 
 <Prototype/>
-

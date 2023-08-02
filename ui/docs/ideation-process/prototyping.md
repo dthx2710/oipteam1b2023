@@ -17,19 +17,18 @@ style={{
 </span>
 );
 
-
 Our proposal for Grove Quest has received approval from our clients. They offered us some guidance for further development:
 
-- Ensure that all mini-games are  <Highlight color="#11a281">simple enough for students</Highlight> to complete.
+- Ensure that all mini-games are <Highlight color="#11a281">simple enough for students</Highlight> to complete.
 - Consider the needs of <Highlight color="#11a281">students with physical/mental disabilities</Highlight>.
 - Have more variety in Match Mystery, moving beyond matching the image and the labels.
 
-
 ## Development of the mini-games
 
-![Fossil Grove Map Image](../../static/img/fossil_grove_map.png)
+![Fossil Grove Map Image](../../static/img/ideation/fossil_grove_map.png)
 
 During the fruitful trip to Fossil Grove, the team identified 4 key areas to function as the stations for Grove Quest:
+
 1. Statue of the tree
 2. Inside the Fossil House
 3. Path leading to the Fossil
@@ -38,9 +37,11 @@ During the fruitful trip to Fossil Grove, the team identified 4 key areas to fun
 The trip also played a crucial role in assisting our team to create more targeted content for the mini-games.
 
 ## Paper prototypes
-![Paper Prototypes Image](../../static/img/paper_prototype.png)
+
+![Paper Prototypes Image](../../static/img/ideation/paper_prototype.png)
 
 Paper prototypes were created to emulate the game experience during the trip. These paper prototypes serves two purposes:
+
 - To generate new variations of Match Mystery
 - To enable <Highlight color="#11a281">swift prototyping</Highlight> by the team, to create a inclusive design for the students
 
@@ -55,8 +56,8 @@ We submitted the paper prototypes, along with the mini-game questions and activi
 
 ## Figma
 
-![Figma Image Chase Image](../../static/img/figma_image_chase.png)
-![Figma Jigsaw Puzzle Image](../../static/img/figma_jigsaw_puzzle.png)
+![Figma Image Chase Image](../../static/img/ideation/figma_image_chase.png)
+![Figma Jigsaw Puzzle Image](../../static/img/ideation/figma_jigsaw_puzzle.png)
 
 Considering the feedback received, we refined our designs and created a high-fidelity prototype incorporating the following adjustments:
 
@@ -64,4 +65,3 @@ Considering the feedback received, we refined our designs and created a high-fid
 - The <Highlight color="#11a281">layout of the mini-games has been improved</Highlight> to present the content more effectively
 - The <Highlight color="#11a281">complexity of the language</Highlight> used has been <Highlight color="#11a281">reduced</Highlight> to enhance understandability.
 - <Highlight color="#11a281">More visuals and cues</Highlight> were added to guide gameplay.
-
