@@ -3,7 +3,11 @@ import Layout from "@theme/Layout";
 import Team1B from "@site/static/img/team/team1B.png";
 
 import styles from "./our-team.module.css";
-import Link from "@docusaurus/Link";
+
+// Font Awesome
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
@@ -17,43 +21,154 @@ export default function About() {
           <div className={styles.textWrapper}>
             <p>
               <strong>
-                University of Glasgow, Computing Science Undergraduates! (left
+                Meet our team! (From left
                 to right)
               </strong>
             </p>
             <ul>
               <li>
-                <Link to="https://github.com/KengLiChia">Keng Li Chia</Link> -
-                Front-End Developer 👩‍💻
+                Keng Li Chia - Front-End Developer
+                <a href="https://linkedin.com/in/kenglichia">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/KengLiChia">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
               <li>
-                <Link to="https://github.com/PriscillaThung">
-                  Priscilla Thung Rui Yi
-                </Link>
-                - Front-End Developer 👩‍💻
+                Priscilla Thung Rui Yi - Front-End Developer
+                <a href="https://linkedin.com/in/priscilla-thung">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/PriscillaThung">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
               <li>
-                <Link to="https://github.com/XiangHui556">Xiang Hui Zhang</Link>
-                - Game Developer 🎮
+                Xiang Hui Zhang - Game Developer
+                <a href="https://linkedin.com/in/xianghui-zhang">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/XiangHui556">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
               <li>
-                <Link to="https://github.com/xKhronoz">Yee Kit Goh</Link> - Game
-                Developer 🎮
+                Yee Kit Goh - Game Developer
+                <a href="https://linkedin.com/in/goh-yee-kit/">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/xKhronoz">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
               <li>
-                <Link to="https://github.com/zyferis">
-                  Derick Kwok Jun Peng
-                </Link>
-                - Game Developer 🎮
+                Derick Kwok Jun Peng - Game Developer
+                <a href="https://linkedin.com/in/derick-kwok-263518261">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.44rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/zyferis">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
               <li>
-                <Link to="https://github.com/dthx2710">Dylan Tok Hong Xun</Link>
-                - Product Owner 👨‍💼
+                Dylan Tok Hong Xun - Product Owner
+                <a href="https://linkedin.com/in/dylan-tok-hong-xun">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    style={{
+                      color: "#0077b5",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.5rem",
+                    }}
+                  />
+                </a>
+                <a href="https://github.com/dthx2710">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    style={{
+                      color: "#000000",
+                      fontSize: "1.35rem",
+                      paddingLeft: "0.3rem",
+                    }}
+                  />
+                </a>
               </li>
             </ul>
             <p>
-              We are a dynamic team of Computing Science undergraduates from the
-              University of Glasgow, hailing from Singapore. United by our
+              We are a team of Computing Science undergraduates,
+              enrolled in a joint degree program between the Singapore Institute
+              of Technology (SIT) and the University of Glasgow. United by our
               shared passion for excellence and innovation, each member brings
               unique expertise to the table, allowing us to create exceptional
               experiences for our clients. Together, we work in harmony to craft
