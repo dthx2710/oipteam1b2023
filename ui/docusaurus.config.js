@@ -80,8 +80,15 @@ const config = {
             position: "left",
             label: "Proud Achievements",
           },
+          //Reflections
+          {
+            to: "/reflection",
+            label: "Reflection",
+            position: "left",
+          },
           //Dailies
           { to: "/dailies", label: "Dailies", position: "left" },
+
           //About
           { to: "/our-team", label: "Our Team", position: "right" },
         ],
