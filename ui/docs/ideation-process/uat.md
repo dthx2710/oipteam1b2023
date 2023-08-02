@@ -4,7 +4,21 @@ sidebar_position: 6
 
 # Usability tests
 
-The group assembled 30 students, all around 22 years old, to test Grove Quest. They were tasked with engaging in different mini-games provided, with the objective of evaluating their understanding of each game, identifying any problems they might encounter during gameplay and to determine their satisfaction with Grove Quest.
+export const Highlight = ({children, color}) => (
+<span
+style={{
+      backgroundColor: color,
+      borderRadius: '15px',
+      color: '#fff',
+      padding: '0.12em 0.4em 0.12em 0.4em',
+      cursor: 'pointer',
+    }}>
+{children}
+</span>
+);
+
+
+The group assembled 30 students, all around 22 years old, to test Grove Quest. They were tasked with engaging in different mini-games provided, with the objective of <Highlight color="#11a281">evaluating their understanding</Highlight> of each game and to determine their <Highlight color="#11a281">satisfaction</Highlight> with Grove Quest.
 
 It would be more beneficial if we could recruit students from the targeted user age group for a more precise evaluation and insights. Nonetheless, the outcomes of these trials still provided valuable information.
 
@@ -42,4 +56,4 @@ Rated '3' (slightly effective) by 6.7%, '4' (effective) by 56.7%, and '5' (very 
 
 ## Conclusion
 
-The survey results affirm that the activities are generally well-designed to promote learning and are suitable for the intended audience, likely children. The balance between challenge and intuitiveness appears to be well-maintained across the activities, fostering an environment that is both engaging and educational. The insights gained from this survey could guide further refinement and development, ensuring that the activities continue to resonate with learners and educators alike.
+The survey results affirm that the activities are generally well-designed to promote learning and are suitable for the intended audience, likely children. The <Highlight color="#11a281">balance between challenge and intuitiveness</Highlight> appears to be well-maintained across the activities, fostering an environment that is both <Highlight color="#11a281">engaging and educational</Highlight>. The insights gained from this survey could guide further refinement and development, ensuring that the activities continue to resonate with learners and educators alike.

@@ -19,9 +19,9 @@ style={{
 
 ![Map Image](../../static/img/ideation/map.png)
 
-Fossil Grove is a unique earth heritage site with 330 million years old fossil tree stumps. Due to its geological importance, the site is used to teach University students and keen visitors. As such, educational content were designed and implemented for adult learners.
+Fossil Grove is a unique earth heritage site with 330 million years old fossil tree stumps. Due to its geological importance, the site is used to teach University students and keen visitors. As such, <Highlight color="#11a281">educational content</Highlight> were designed and implemented for <Highlight color="#11a281">adult learners</Highlight>.
 
-Scotstoun Primary is a school with students of age ranging from 6 to 11 years. Despite the close promixity of the school to Fossil Grove, there was not any activities or content targetted for the primary school students.
+Scotstoun Primary is a school with students of age ranging from 6 to 11 years. Despite the close promixity of the school to Fossil Grove, there was <Highlight color="#11a281">not any activities or content targetted for the primary school students</Highlight>.
 
 ## The Problem
 
