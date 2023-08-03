@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Usability tests
+# Usability Tests
 
 export const Highlight = ({children, color}) => (
 <span
