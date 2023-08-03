@@ -80,6 +80,8 @@ const config = {
             position: "left",
             label: "Proud Achievements",
           },
+          //Demo
+          { to: "/demo", label: "Demo", position: "left" },
           //Reflections
           {
             to: "/reflection",
