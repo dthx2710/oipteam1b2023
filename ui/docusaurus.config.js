@@ -110,6 +110,10 @@ const config = {
                 to: "/docs/proud-achievements/proud",
               },
               {
+                label: "Demo",
+                to: "/demo",
+              },
+              {
                 label: "Reflection",
                 to: "/reflection",
               },
@@ -124,7 +128,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/dthx2710/oipteam1b2023",
+                href: "https://github.com/Design-and-Innovation-2023/Grove-Quest-Interactive-Adventure",
               },
             ],
           },

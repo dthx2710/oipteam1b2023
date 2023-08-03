@@ -5,7 +5,7 @@ import styles from "./reflection.module.css";
 
 export default function About() {
   return (
-    <Layout title="Our Team" description="Team Introduction">
+    <Layout title="Demo" description="Team Introduction">
       <div className={styles.container}>
         <h1>Grove Quest Demo 🌳</h1>
         <div>

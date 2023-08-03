@@ -6,7 +6,7 @@ import Link from "@docusaurus/Link";
 
 export default function About() {
   return (
-    <Layout title="Our Team" description="Team Introduction">
+    <Layout title="Reflection" description="Team Introduction">
       <div className={styles.container}>
         <h1>Reflection 📖✨</h1>
         <div>

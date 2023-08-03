@@ -42,7 +42,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
@@ -65,7 +65,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
@@ -88,7 +88,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
@@ -111,7 +111,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
@@ -134,7 +134,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
@@ -157,7 +157,7 @@ export default function About() {
                   <FontAwesomeIcon
                     icon={faGithub}
                     style={{
-                      color: "#000000",
+                      color: "#75278b",
                       fontSize: "1.35rem",
                       paddingLeft: "0.3rem",
                     }}
