@@ -9,7 +9,8 @@ export const Prototype = () => (
       position: 'relative',
       overflow: 'hidden',
       paddingTop: '50%', 
-      width: '100%'
+      width: '100%',
+      minHeight: '350px',
   }}>
     <iframe 
       style={{

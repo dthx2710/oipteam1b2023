@@ -18,6 +18,7 @@
   overflow: hidden;
   padding-top: 50%;
   width: 100%;
+  min-height: 350px;
 }
 
 .iframe {
