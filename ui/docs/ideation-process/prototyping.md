@@ -54,6 +54,12 @@ We submitted the paper prototypes, along with the mini-game questions and activi
 - <Highlight color="#11a281">More visual aids/cues</Highlight> could be used to help the student navigate easily.
 - The games should foster learning in a manner that discourages guessing.
 
+The following images are examples of the two iterations of Trivia Hunt questions which we changed along the way, with the help of David from Fossil Grove.
+
+![Trivia Hunt Iteration 1 Image](../../static/img/ideation/trivia_hunt_iteration_1.png)
+
+![Trivia Hunt Iteration 2 Image](../../static/img/ideation/trivia_hunt_iteration_2.png)
+
 ## Figma
 
 ![Figma Image Chase Image](../../static/img/ideation/figma_image_chase.png)
