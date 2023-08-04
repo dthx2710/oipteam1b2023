@@ -6,12 +6,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "OIP Team 1B",
-  tagline: "Grove Quest",
+  title: "Grove Quest",
+  tagline: "Where History and Fun Unite!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://oipteam1b2023.vercel.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "oipteam1b2023", // Usually your GitHub org/user name.
-  projectName: "oipteam1b2023", // Usually your repo name.
+  projectName: "grovequest", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -42,8 +42,10 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          routeBasePath: "/journal",
-          blogTitle: "Journal",
+          routeBasePath: "/dailies",
+          blogTitle: "Dailies",
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Dailies",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,9 +60,9 @@ const config = {
       // Replace with your project's social card
       image: "img/logo.jpg",
       navbar: {
-        title: "OIP Team 1B",
+        title: "Grove Quest",
         logo: {
-          alt: "OIP Team 1B Logo",
+          alt: "Grove Quest Logo",
           src: "img/logo.png",
         },
         items: [
@@ -78,14 +80,19 @@ const config = {
             position: "left",
             label: "Proud Achievements",
           },
-          //Journal (Dailies)
-          { to: "/journal", label: "Journal", position: "left" },
-          //GitHub
+          //Demo
+          { to: "/demo", label: "Demo", position: "left" },
+          //Reflections
           {
-            href: "https://github.com/dthx2710/oipteam1b2023",
-            label: "GitHub",
-            position: "right",
+            to: "/reflection",
+            label: "Reflection",
+            position: "left",
           },
+          //Dailies
+          { to: "/dailies", label: "Dailies", position: "left" },
+
+          //About
+          { to: "/our-team", label: "Our Team", position: "right" },
         ],
       },
       footer: {
@@ -96,15 +103,23 @@ const config = {
             items: [
               {
                 label: "Ideation Process",
-                to: "/docs/ideation-process/aligning-mental-models",
+                to: "/docs/ideation-process/background",
               },
               {
                 label: "Proud Achievements",
                 to: "/docs/proud-achievements/proud",
               },
               {
-                label: "Journal",
-                to: "/journal",
+                label: "Demo",
+                to: "/demo",
+              },
+              {
+                label: "Reflection",
+                to: "/reflection",
+              },
+              {
+                label: "Dailies",
+                to: "/dailies",
               },
             ],
           },
@@ -113,13 +128,17 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/dthx2710/oipteam1b2023",
+                href: "https://github.com/Design-and-Innovation-2023/Grove-Quest-Interactive-Adventure",
               },
             ],
           },
           {
             title: "Connect",
             items: [
+              {
+                label: "Our Team",
+                to: "/our-team",
+              },
               {
                 label: "Email",
                 href: "mailto:oipteam1b@gmail.com",
